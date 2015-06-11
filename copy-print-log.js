@@ -10,7 +10,7 @@ var copyPaste = function () {
 var ajaxCall = function (value) {
     $.ajax({
         type    : 'POST',
-        url     : 'jareds controller',
+        url     : 'CONTROLLER',
         cache   : false,
         success : function (data) {
             $('htmlBody').html(data); //whole page?

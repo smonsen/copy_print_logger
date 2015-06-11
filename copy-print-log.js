@@ -13,7 +13,7 @@ var ajaxCall = function (value) {
         url     : 'CONTROLLER',
         cache   : false,
         success : function (data) {
-            $('htmlBody').html(data); //whole page?
+            $('htmlBody').html(data); //whole page
         }
     });
 };
